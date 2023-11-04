@@ -15,12 +15,24 @@ The aim of this project is to implement a fraudulent job posting prediction/dete
 
 ## Conclusion:
 
+Dealing with class imbalance in fraud detection is a significant challenge. Traditional machine learning models like Logistic Regression, Naive Bayes, and even SVM struggle to identify fraudulent cases effectively due to the imbalanced distribution of the classes. The use of techniques like SMOTE and hyperparameter variation can  improve SVM performance especially for the prediciton of the "Fake" class, but there's still room for enhancement.
+
+The RNN model, while showing promise in other natural language processing tasks, struggles with this particular job posting fraud detection problem, indicating the need for more sophisticated approaches.
+
 ### *author*
 Clara Gaubil
 
 ### *date*  
 31/10/2023
 
-### *Data set:*  
+### *Dataset:*  
 https://www.kaggle.com/code/abdrakhmanmurat/fraudulent-job-posting-detection-nlp/input
 
+### *Sources:*  
+https://www.kaggle.com/code/abdrakhmanmurat/fraudulent-job-posting-detection-nlp/input
+
+https://scikit-learn.org/stable/modules/svm.html
+
+https://medium.com/@dinghan1995/how-to-tackle-dataset-class-imbalance-for-nlp-4453af6f6b87#:~:text=Oversampling%20and%20undersampling%20techniques%20are,to%20achieve%20a%20balanced%20dataset.
+
+https://www.forbes.com/sites/forbesbusinesscouncil/2023/05/10/getting-value-from-nlp-for-fraud-detection/?sh=7dcdf88f1ec8
